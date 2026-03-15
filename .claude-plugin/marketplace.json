@@ -1,0 +1,25 @@
+{
+  "name": "hopchouinard-plugins",
+  "owner": {
+    "name": "Patrick Chouinard"
+  },
+  "metadata": {
+    "description": "Claude Code plugins by Patrick Chouinard"
+  },
+  "plugins": [
+    {
+      "name": "cc-statusline",
+      "description": "4-line ANSI dashboard statusline for Claude Code showing environment, context window, session cost, and git status",
+      "version": "1.0.0",
+      "source": {
+        "source": "github",
+        "repo": "hopchouinard/CC-StatusLine"
+      },
+      "author": {
+        "name": "Patrick Chouinard"
+      },
+      "license": "MIT",
+      "keywords": ["statusline", "dashboard", "status", "context", "git"]
+    }
+  ]
+}

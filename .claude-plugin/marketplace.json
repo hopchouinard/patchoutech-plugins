@@ -1,10 +1,10 @@
 {
-  "name": "hopchouinard-plugins",
+  "name": "patchoutech-plugins",
   "owner": {
     "name": "Patrick Chouinard"
   },
   "metadata": {
-    "description": "Claude Code plugins by Patrick Chouinard"
+    "description": "Claude Code plugins by Patchoutech"
   },
   "plugins": [
     {
@@ -20,6 +20,20 @@
       },
       "license": "MIT",
       "keywords": ["statusline", "dashboard", "status", "context", "git"]
+    },
+    {
+      "name": "cmux",
+      "description": "Claude Code integration for cmux — workspace naming, completion notifications, progress bars, and browser splits for AI coding agents",
+      "version": "1.0.1",
+      "source": {
+        "source": "github",
+        "repo": "hopchouinard/cmux-plugin"
+      },
+      "author": {
+        "name": "Patrick Chouinard"
+      },
+      "license": "MIT",
+      "keywords": ["cmux", "terminal", "notifications", "workspace", "macos"]
     }
   ]
 }

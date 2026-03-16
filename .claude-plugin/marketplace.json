@@ -12,8 +12,8 @@
       "description": "4-line ANSI dashboard statusline for Claude Code showing environment, context window, session cost, and git status",
       "version": "1.1.0",
       "source": {
-        "source": "github",
-        "repo": "hopchouinard/CC-StatusLine"
+        "source": "url",
+        "url": "https://github.com/hopchouinard/CC-StatusLine.git"
       },
       "author": {
         "name": "Patrick Chouinard"
@@ -26,8 +26,8 @@
       "description": "Claude Code integration for cmux — workspace naming, completion notifications, progress bars, and browser splits for AI coding agents",
       "version": "1.0.1",
       "source": {
-        "source": "github",
-        "repo": "hopchouinard/cmux-plugin"
+        "source": "url",
+        "url": "https://github.com/hopchouinard/cmux-plugin.git"
       },
       "author": {
         "name": "Patrick Chouinard"

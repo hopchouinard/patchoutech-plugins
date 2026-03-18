@@ -34,6 +34,20 @@
       },
       "license": "MIT",
       "keywords": ["cmux", "terminal", "notifications", "workspace", "macos"]
+    },
+    {
+      "name": "cowork-backup",
+      "description": "Cross-platform Cowork session backup & restore. Detects your OS and installs backup scripts and a scheduler automatically. One-command interactive restore.",
+      "version": "1.0.0",
+      "source": {
+        "source": "github",
+        "repo": "hopchouinard/cowork-backup-plugin"
+      },
+      "author": {
+        "name": "Patrick Chouinard"
+      },
+      "license": "MIT",
+      "keywords": ["cowork", "backup", "restore", "sessions", "history"]
     }
   ]
 }

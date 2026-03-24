@@ -38,7 +38,7 @@
     {
       "name": "cowork-backup",
       "description": "Cross-platform Cowork session backup & restore. Detects your OS and installs backup scripts and a scheduler automatically. One-command interactive restore.",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "source": {
         "source": "github",
         "repo": "hopchouinard/cowork-backup-plugin"

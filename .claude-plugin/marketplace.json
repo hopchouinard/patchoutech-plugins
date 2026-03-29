@@ -48,6 +48,20 @@
       },
       "license": "MIT",
       "keywords": ["cowork", "backup", "restore", "sessions", "history"]
+    },
+    {
+      "name": "claude-speak",
+      "description": "Voice output layer for Claude Code — passive spoken summaries via hooks and active voice capability via skill",
+      "version": "1.0.0",
+      "source": {
+        "source": "github",
+        "repo": "hopchouinard/claude-speak"
+      },
+      "author": {
+        "name": "Patrick Chouinard"
+      },
+      "license": "MIT",
+      "keywords": ["voice", "tts", "speech", "audio", "accessibility"]
     }
   ]
 }

@@ -15,6 +15,7 @@ Claude Code plugin marketplace by [Patchoutech](https://patchoutech.com).
 | **cc-statusline** | 1.5.2 | 4-line ANSI dashboard showing environment, context window, session cost, and git status | `/plugin install cc-statusline@patchoutech-plugins` |
 | **cmux** | 1.0.1 | Claude Code integration for cmux — workspace naming, completion notifications, progress bars, and browser splits | `/plugin install cmux@patchoutech-plugins` |
 | **cowork-backup** | 1.0.0 | Cross-platform Cowork session backup & restore with automatic scheduling and one-command interactive restore | `/plugin install cowork-backup@patchoutech-plugins` |
+| **claude-speak** | 1.0.0 | Voice output layer for Claude Code — passive spoken summaries and active voice capability | `/plugin install claude-speak@patchoutech-plugins` |
 
 ## Plugin Details
 
@@ -41,6 +42,14 @@ Cross-platform Cowork session backup & restore plugin. Detects your OS and insta
 - **Version:** 1.0.0
 - **License:** MIT
 - **Source:** [hopchouinard/cowork-backup-plugin](https://github.com/hopchouinard/cowork-backup-plugin)
+
+### claude-speak
+
+Voice output layer for Claude Code. Adds two capabilities: a passive hook that automatically speaks Claude's final message at the end of each turn, and an active voice skill that lets Claude speak to the user mid-turn when something warrants immediate audible attention. Powered by OpenAI's gpt-4o-mini-tts with configurable voice, personality, and speed.
+
+- **Version:** 1.0.0
+- **License:** MIT
+- **Source:** [hopchouinard/claude-speak](https://github.com/hopchouinard/claude-speak)
 
 ## Author
 

@@ -22,8 +22,8 @@
       "keywords": ["statusline", "dashboard", "status", "context", "git"]
     },
     {
-      "name": "cmux",
-      "description": "Claude Code integration for cmux — workspace naming, completion notifications, progress bars, and browser splits for AI coding agents",
+      "name": "cmux-plugin",
+      "description": "Integrates Claude Code with cmux — the native macOS terminal built for AI coding agents. Provides automatic workspace naming, session notifications, sidebar progress reporting, browser split automation, and Superpowers plugin awareness.",
       "version": "1.0.1",
       "source": {
         "source": "github",
@@ -33,11 +33,11 @@
         "name": "Patrick Chouinard"
       },
       "license": "MIT",
-      "keywords": ["cmux", "terminal", "notifications", "workspace", "macos"]
+      "keywords": ["cmux", "terminal", "workflow", "notifications", "worktree", "macos"]
     },
     {
       "name": "cowork-backup",
-      "description": "Cross-platform Cowork session backup & restore. Detects your OS and installs backup scripts and a scheduler automatically. One-command interactive restore.",
+      "description": "Cross-platform Cowork session backup & restore. Detects your OS and installs the appropriate backup scripts and scheduler (LaunchAgent on macOS, systemd on Linux, Task Scheduler on Windows). One-command interactive restore.",
       "version": "1.0.1",
       "source": {
         "source": "github",
@@ -51,8 +51,8 @@
     },
     {
       "name": "claude-speak",
-      "description": "Voice output layer for Claude Code — passive spoken summaries via hooks and active voice capability via skill",
-      "version": "1.0.0",
+      "description": "Voice output layer for Claude Code — passive spoken summaries and active voice capability",
+      "version": "1.0.1",
       "source": {
         "source": "github",
         "repo": "hopchouinard/claude-speak"
@@ -61,7 +61,7 @@
         "name": "Patrick Chouinard"
       },
       "license": "MIT",
-      "keywords": ["voice", "tts", "speech", "audio", "accessibility"]
+      "keywords": ["voice", "tts", "accessibility", "audio"]
     }
   ]
 }

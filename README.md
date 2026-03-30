@@ -18,6 +18,7 @@ Claude Code plugin marketplace by [Patchoutech](https://patchoutech.com).
 | **claude-speak** | 1.0.1 | Voice output layer for Claude Code — passive spoken summaries and active voice capability | `/plugin install claude-speak@patchoutech-plugins` |
 | **cc-statusline** | 1.5.2 | 4-line ANSI dashboard statusline for Claude Code showing environment, context window, session cost, and git status | `/plugin install cc-statusline@patchoutech-plugins` |
 | **cc-statusline** | 1.5.2 | 4-line ANSI dashboard statusline for Claude Code showing environment, context window, session cost, and git status | `/plugin install cc-statusline@patchoutech-plugins` |
+| **cc-statusline** | 1.5.2 | 4-line ANSI dashboard statusline for Claude Code showing environment, context window, session cost, and git status | `/plugin install cc-statusline@patchoutech-plugins` |
 
 ## Plugin Details
 
@@ -56,6 +57,14 @@ Voice output layer for Claude Code. Adds two capabilities: a passive hook that a
 ### cc-statusline
 
 A real-time ANSI dashboard displaying Claude Code session metrics including environment configuration, context window utilization with color-coded progress bars, cumulative costs, and git repository status.
+
+- **Version:** 1.5.2
+- **License:** MIT
+- **Source:** [hopchouinard/CC-StatusLine](https://github.com/hopchouinard/CC-StatusLine)
+
+### cc-statusline
+
+A Claude Code plugin that renders a 4-line ANSI-colored statusline dashboard displaying environment info, context window usage, session cost, and git status in real-time.
 
 - **Version:** 1.5.2
 - **License:** MIT

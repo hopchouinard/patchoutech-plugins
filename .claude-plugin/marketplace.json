@@ -19,7 +19,13 @@
         "name": "Patrick Chouinard"
       },
       "license": "MIT",
-      "keywords": ["statusline", "dashboard", "status", "context", "git"]
+      "keywords": [
+        "statusline",
+        "dashboard",
+        "status",
+        "context",
+        "git"
+      ]
     },
     {
       "name": "cmux-plugin",
@@ -33,7 +39,14 @@
         "name": "Patrick Chouinard"
       },
       "license": "MIT",
-      "keywords": ["cmux", "terminal", "workflow", "notifications", "worktree", "macos"]
+      "keywords": [
+        "cmux",
+        "terminal",
+        "workflow",
+        "notifications",
+        "worktree",
+        "macos"
+      ]
     },
     {
       "name": "cowork-backup",
@@ -47,7 +60,13 @@
         "name": "Patrick Chouinard"
       },
       "license": "MIT",
-      "keywords": ["cowork", "backup", "restore", "sessions", "history"]
+      "keywords": [
+        "cowork",
+        "backup",
+        "restore",
+        "sessions",
+        "history"
+      ]
     },
     {
       "name": "claude-speak",
@@ -61,7 +80,12 @@
         "name": "Patrick Chouinard"
       },
       "license": "MIT",
-      "keywords": ["voice", "tts", "accessibility", "audio"]
+      "keywords": [
+        "voice",
+        "tts",
+        "accessibility",
+        "audio"
+      ]
     }
   ]
 }

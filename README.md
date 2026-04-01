@@ -14,7 +14,7 @@ Claude Code plugin marketplace by [Patchoutech](https://patchoutech.com).
 |--------|---------|-------------|---------|
 | **cc-statusline** | 1.5.2 | 4-line ANSI dashboard showing environment, context window, session cost, and git status | `/plugin install cc-statusline@patchoutech-plugins` |
 | **cmux-plugin** | 1.0.1 | Integrates Claude Code with cmux — automatic workspace naming, session notifications, sidebar progress reporting, browser split automation, and Superpowers awareness | `/plugin install cmux-plugin@patchoutech-plugins` |
-| **cowork-backup** | 1.0.1 | Cross-platform Cowork session backup & restore with platform-specific schedulers (LaunchAgent, systemd, Task Scheduler) and one-command interactive restore | `/plugin install cowork-backup@patchoutech-plugins` |
+| **cowork-backup** | 1.0.1 | Cross-platform Cowork session backup & restore. Detects your OS and installs the appropriate backup scripts and scheduler (LaunchAgent on macOS, systemd on Linux, Task Scheduler on Windows). One-command interactive restore. | `/plugin install cowork-backup@patchoutech-plugins` |
 | **claude-speak** | 1.0.1 | Voice output layer for Claude Code — passive spoken summaries and active voice capability | `/plugin install claude-speak@patchoutech-plugins` |
 
 ## Plugin Details
@@ -37,12 +37,11 @@ Integration plugin for [cmux](https://cmux.dev) — the native macOS terminal bu
 
 ### cowork-backup
 
-Cross-platform Cowork session backup & restore plugin. Detects your OS and installs the appropriate backup scripts and scheduler (LaunchAgent on macOS, systemd on Linux, Task Scheduler on Windows). One-command interactive restore for recovering previous Cowork sessions.
+Automatically backs up your Cowork conversation history across macOS, Linux, and Windows with platform-specific schedulers, and provides one-command interactive restore to recover sessions after app reset, reinstall, or data loss.
 
 - **Version:** 1.0.1
 - **License:** MIT
 - **Source:** [hopchouinard/cowork-backup-plugin](https://github.com/hopchouinard/cowork-backup-plugin)
-
 ### claude-speak
 
 Converts Claude's text responses into natural speech and plays them through your local speakers, enabling hands-free work with both automatic end-of-turn summaries and deliberate mid-turn alerts for critical events.

@@ -48,12 +48,11 @@ Cross-platform Cowork session backup & restore plugin. Detects your OS and insta
 
 ### claude-speak
 
-Voice output layer for Claude Code. Adds two capabilities: a passive hook that automatically speaks Claude's final message at the end of each turn, and an active voice skill that lets Claude speak to the user mid-turn when something warrants immediate audible attention. Configurable TTS provider, voice, and delivery instructions.
+Converts Claude's text responses into natural speech and plays them through your local speakers, enabling hands-free work with both automatic end-of-turn summaries and deliberate mid-turn alerts for critical events.
 
 - **Version:** 1.0.1
 - **License:** MIT
 - **Source:** [hopchouinard/claude-speak](https://github.com/hopchouinard/claude-speak)
-
 ### cc-statusline
 
 A real-time ANSI dashboard displaying Claude Code session metrics including environment configuration, context window utilization with color-coded progress bars, cumulative costs, and git repository status.

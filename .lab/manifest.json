@@ -1,0 +1,27 @@
+{
+  "name": "patchoutech-plugins",
+  "version": "1.0.0",
+  "description": "Claude Code plugin marketplace by Patchoutech.",
+  "category": "other",
+  "platforms": [
+    "claude-code",
+    "cowork"
+  ],
+  "status": "shipped",
+  "author": {
+    "name": "hopchouinard"
+  },
+  "license": "MIT",
+  "source": {
+    "type": "github",
+    "repo": "hopchouinard/patchoutech-plugins"
+  },
+  "keywords": [
+    "sync",
+    "marketplace"
+  ],
+  "install": {
+    "command": "/plugin marketplace add hopchouinard/patchoutech-plugins",
+    "notes": "Is required to install all the other plugins from Patchoutech"
+  }
+}

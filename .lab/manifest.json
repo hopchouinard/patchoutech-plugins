@@ -1,7 +1,7 @@
 {
   "name": "patchoutech-plugins",
   "version": "1.0.0",
-  "description": "Claude Code plugin marketplace by Patchoutech.",
+  "description": "Distributes Claude Code plugins for statuslines, backups, voice output, and terminal integration.",
   "category": "other",
   "platforms": [
     "claude-code",

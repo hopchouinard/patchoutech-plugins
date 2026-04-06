@@ -13,9 +13,9 @@ Claude Code plugin marketplace by [Patchoutech](https://patchoutech.com).
 | Plugin | Version | Description | Install |
 |--------|---------|-------------|---------|
 | **cc-statusline** | 1.5.2 | 4-line ANSI dashboard showing environment, context window, session cost, and git status | `/plugin install cc-statusline@patchoutech-plugins` |
-| **cmux-plugin** | 1.0.1 | Integrates Claude Code with cmux — automatic workspace naming, session notifications, sidebar progress reporting, browser split automation, and Superpowers awareness | `/plugin install cmux-plugin@patchoutech-plugins` |
-| **cowork-backup** | 1.0.1 | Cross-platform Cowork session backup & restore. Detects your OS and installs the appropriate backup scripts and scheduler (LaunchAgent on macOS, systemd on Linux, Task Scheduler on Windows). One-command interactive restore. | `/plugin install cowork-backup@patchoutech-plugins` |
 | **claude-speak** | 1.2.0 | Voice output layer for Claude Code — passive spoken summaries and active voice capability | `/plugin install claude-speak@patchoutech-plugins` |
+| **cmux-plugin** | 1.0.1 | Integrates Claude Code with cmux — automatic workspace naming, session notifications, sidebar progress reporting, browser split automation, and Superpowers awareness | `/plugin install cmux-plugin@patchoutech-plugins` |
+| **cowork-backup** | 1.0.1 | Cross-platform Cowork session backup & restore with platform-specific schedulers (LaunchAgent, systemd, Task Scheduler) and one-command interactive restore | `/plugin install cowork-backup@patchoutech-plugins` |
 
 ## Plugin Details
 

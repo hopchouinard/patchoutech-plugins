@@ -71,7 +71,7 @@
     {
       "name": "claude-speak",
       "description": "Voice output layer for Claude Code — passive spoken summaries and active voice capability",
-      "version": "1.0.1",
+      "version": "1.2.0",
       "source": {
         "source": "github",
         "repo": "hopchouinard/claude-speak"

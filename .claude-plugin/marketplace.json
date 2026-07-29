@@ -9,8 +9,8 @@
   "plugins": [
     {
       "name": "cc-statusline",
-      "description": "4-line ANSI dashboard statusline for Claude Code showing environment, context window, session cost, and git status",
-      "version": "1.5.2",
+      "description": "4-line ANSI dashboard statusline for Claude Code showing environment and reasoning effort, context window and subscription rate limits, session cost, and git and worktree status",
+      "version": "1.6.0",
       "source": {
         "source": "github",
         "repo": "hopchouinard/CC-StatusLine"

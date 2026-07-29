@@ -12,7 +12,7 @@ Claude Code plugin marketplace by [Patchoutech](https://patchoutech.com).
 
 | Plugin | Version | Description | Install |
 |--------|---------|-------------|---------|
-| **cc-statusline** | 1.5.2 | 4-line ANSI dashboard showing environment, context window, session cost, and git status | `/plugin install cc-statusline@patchoutech-plugins` |
+| **cc-statusline** | 1.6.0 | 4-line ANSI dashboard showing environment and reasoning effort, context window and subscription rate limits, session cost, and git and worktree status | `/plugin install cc-statusline@patchoutech-plugins` |
 | **claude-speak** | 1.2.0 | Voice output layer for Claude Code — passive spoken summaries and active voice capability | `/plugin install claude-speak@patchoutech-plugins` |
 | **cmux-plugin** | 1.0.1 | Integrates Claude Code with cmux — automatic workspace naming, session notifications, sidebar progress reporting, browser split automation, and Superpowers awareness | `/plugin install cmux-plugin@patchoutech-plugins` |
 | **cowork-backup** | 1.0.1 | Cross-platform Cowork session backup & restore with platform-specific schedulers (LaunchAgent, systemd, Task Scheduler) and one-command interactive restore | `/plugin install cowork-backup@patchoutech-plugins` |
@@ -21,9 +21,11 @@ Claude Code plugin marketplace by [Patchoutech](https://patchoutech.com).
 
 ### cc-statusline
 
-A zero-dependency Python statusline that renders a compact dashboard in your Claude Code status bar. Shows your model, context window usage (color-coded progress bar), session cost/duration, and git branch status at a glance.
+A zero-dependency Python statusline that renders a compact dashboard in your Claude Code status bar. Shows your model and reasoning effort, context window usage (color-coded progress bar), 5-hour and 7-day subscription limits with reset countdowns, session cost/duration, and git branch and worktree status at a glance.
 
-- **Version:** 1.5.2
+Effort, rate limits, and worktree are conditional: each appears only when Claude Code sends the data, and is omitted cleanly when it does not.
+
+- **Version:** 1.6.0
 - **License:** MIT
 - **Source:** [hopchouinard/CC-StatusLine](https://github.com/hopchouinard/CC-StatusLine)
 

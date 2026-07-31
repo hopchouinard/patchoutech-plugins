@@ -13,7 +13,7 @@ Claude Code plugin marketplace by [Patchoutech](https://patchoutech.com).
 | Plugin | Version | Description | Install |
 |--------|---------|-------------|---------|
 | **cc-statusline** | 1.6.0 | 4-line ANSI dashboard showing environment and reasoning effort, context window and subscription rate limits, session cost, and git and worktree status | `/plugin install cc-statusline@patchoutech-plugins` |
-| **claude-speak** | 1.2.0 | Voice output layer for Claude Code — passive spoken summaries and active voice capability | `/plugin install claude-speak@patchoutech-plugins` |
+| **claude-speak** | 2.0.0 | Opt-in voice output for Claude Code — off by default in every session, condenses long or table-heavy replies for the ear, and interrupts instantly with !shutup | `/plugin install claude-speak@patchoutech-plugins` |
 | **cmux-plugin** | 1.0.1 | Integrates Claude Code with cmux — automatic workspace naming, session notifications, sidebar progress reporting, browser split automation, and Superpowers awareness | `/plugin install cmux-plugin@patchoutech-plugins` |
 | **cowork-backup** | 1.0.1 | Cross-platform Cowork session backup & restore with platform-specific schedulers (LaunchAgent, systemd, Task Scheduler) and one-command interactive restore | `/plugin install cowork-backup@patchoutech-plugins` |
 
@@ -46,9 +46,11 @@ Automatically backs up your Cowork conversation history across macOS, Linux, and
 - **Source:** [hopchouinard/cowork-backup-plugin](https://github.com/hopchouinard/cowork-backup-plugin)
 ### claude-speak
 
-Converts Claude's text responses into natural speech and plays them through your local speakers, enabling hands-free work with both automatic end-of-turn voice output and deliberate mid-turn speaking for critical events.
+Converts Claude's text responses into natural speech and plays them through your local speakers, enabling hands-free work.
 
-- **Version:** 1.2.0
+Voice is **off by default in every session** and is activated deliberately with `/speak on` — no project ever starts talking unexpectedly. Long or table-heavy replies are condensed before they are spoken, so a six-column summary table does not become a stream of label-value pairs. Narration can be cut off instantly by typing `!shutup`, or simply by submitting your next prompt.
+
+- **Version:** 2.0.0
 - **License:** MIT
 - **Source:** [hopchouinard/claude-speak](https://github.com/hopchouinard/claude-speak)
 ## Author

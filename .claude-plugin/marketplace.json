@@ -70,8 +70,8 @@
     },
     {
       "name": "claude-speak",
-      "description": "Voice output layer for Claude Code — passive spoken summaries and active voice capability",
-      "version": "1.2.0",
+      "description": "Opt-in voice output for Claude Code — off by default in every session, condenses long or table-heavy replies for the ear, and interrupts instantly with !shutup",
+      "version": "2.0.0",
       "source": {
         "source": "github",
         "repo": "hopchouinard/claude-speak"
@@ -84,7 +84,9 @@
         "voice",
         "tts",
         "accessibility",
-        "audio"
+        "audio",
+        "opt-in",
+        "interrupt"
       ]
     }
   ]

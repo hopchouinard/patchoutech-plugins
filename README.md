@@ -43,9 +43,7 @@ Automatically backs up your Cowork conversation history across macOS, Linux, and
 - **Source:** [hopchouinard/cowork-backup-plugin](https://github.com/hopchouinard/cowork-backup-plugin)
 ### claude-speak
 
-Converts Claude's text responses into natural speech and plays them through your local speakers, enabling hands-free work.
-
-Voice is **off by default in every session** and is activated deliberately with `/speak on` — no project ever starts talking unexpectedly. Long or table-heavy replies are condensed before they are spoken, so a six-column summary table does not become a stream of label-value pairs. Narration can be cut off instantly by typing `!shutup`, or simply by submitting your next prompt.
+Converts Claude's text responses into natural speech played through your local speakers, enabling hands-free work. Supports both OpenAI and ElevenLabs TTS with per-session activation, smart message condensation, and instant interrupt control.
 
 - **Version:** 2.0.0
 - **License:** MIT

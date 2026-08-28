@@ -84,9 +84,7 @@
         "voice",
         "tts",
         "accessibility",
-        "audio",
-        "opt-in",
-        "interrupt"
+        "audio"
       ]
     }
   ]

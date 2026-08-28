@@ -86,6 +86,26 @@
         "accessibility",
         "audio"
       ]
+    },
+    {
+      "name": "lab-sync",
+      "description": "Ecosystem synchronization tool for the Patchoutech lab. Keeps the plugin marketplace and lab website in sync with tool repos via CLI commands and a /sync skill.",
+      "version": "0.1.0",
+      "source": {
+        "source": "github",
+        "repo": "hopchouinard/lab-sync"
+      },
+      "author": {
+        "name": "Patrick Chouinard"
+      },
+      "license": "MIT",
+      "keywords": [
+        "sync",
+        "ecosystem",
+        "marketplace",
+        "registry",
+        "lab"
+      ]
     }
   ]
 }
